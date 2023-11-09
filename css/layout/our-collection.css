@@ -1,0 +1,12 @@
+.our-collection-h2 {
+    color: var(--white, #FCF9F9);
+
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    /* 137.5% */
+    letter-spacing: -0.96px;
+    margin: 0 auto;
+}

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- FONTS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Manrope:wght@200;300;700;800&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Mobile tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- =====================================Normalize========================================= -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+
+  <title>Vishivanka</title>
+
+  <!-- CSS======================================================================================== -->
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <!--===================== Page header =========================-->
+
+  <header class="page-header container">
+
+    <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" width="44" height="39" />
+    </a>
+
+    <nav class="header-navigation">
+      <ul class="header-nav-ul">
+        <li><a href="#about-us" class="header-nav-ul-link">about us</a></li>
+        <li><a href="#our-collection" class="header-nav-ul-link">our collection</a></li>
+        <li><a href="#customer-order" class="header-nav-ul-link">customer order</a></li>
+        <li><a href="#testimonials" class="header-nav-ul-link">testimonials</a></li>
+      </ul>
+    </nav>
+
+    <a href="tel:+380684439426" class="phone-link">+380 (68) 443-94-26</a>
+
+    <ul class="header-social-ul">
+      <li>
+        <a href="https://www.facebook.com/goITclub/" class="header-social-ul-link" target="_blank" title="facebook">
+          <svg width="28" height="28">
+            <use href="./images/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/goitclub/" class="header-social-ul-link" target="_blank" title="instagram">
+          <svg width="28" height="28">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/GoIT" class="header-social-ul-link" target="_blank" title="youtube">
+          <svg width="28" height="28">
+            <use href="./images/icons.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <button class="header-button-burger js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="header-button-burger-icon" width="36" height="24">
+        <use href="./images/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
+
+  </header>
+
+  <main>
+
+    <!-- =================HERO============================================ -->
+    <hero class="hero container">
+
+      <div class="hero-wrap">
+        <h1 class="hero-text">
+          Reviving the traditional <pan class="pan-ukrainian">Ukrainian</pan>
+          artistry in every stitch.
+        </h1>
+
+        <button class="hero-buttom" type="button">
+          ORDER
+          <svg class="hero-icon" width="26" height="14">
+            <use href="./images/icons.svg#icon-hero-arrow"></use>
+          </svg>
+        </button>
+      </div>
+
+      <picture class="hero-image">
+        <source media="(min-width: 1280px)" srcset="
+                  ./images/hero/girl-desktop.jpg,
+                  ./images/hero/girl-desktop@2x.jpg" />
+        <source media="(min-width: 768px)" srcset="
+          ./images/hero/girl-tablet.jpg, 
+          ./images/hero/girl-tablet@2x.jpg" />
+        <source media="(max-width: 767px)" srcset="
+          ./images/hero/girl-mobile.jpg, 
+          ./images/hero/girl-mobile@2x.jpg" />
+        <img src="./images/hero/girl-mobile.jpg" alt="girl" width="335" />
+      </picture>
+
+      <div class="hero-icon-star-div">
+        <svg class="hero-star" width="52" height="51">
+          <use href="./images/icons.svg#icon-hero-star"></use>
+        </svg>
+        <p class="hero-icon-star-div-par">
+          all embroidery is made by hand
+        </p>
+      </div>
+
+      <img class="hero-ornament-img" srcset="./images/hero/ornament@2x.png 2x" src="./images/hero/ornament.png"
+        alt="ornament" width="139" height="197" />
+    </hero>
+
+    <!-- Section About Us================================================== -->
+
+    <section class="about-us container" id="about-us">
+      <h2 class="about-us-h2">
+        About Us
+      </h2>
+      <p class="about-us-par1">
+        The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and
+        style.
+        Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of
+        traditional
+        needlework and modern design.
+      </p>
+      <p class="about-us-par2">
+        In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the
+        latest
+        fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen
+        who convey
+        the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol
+        of
+        national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery
+        from
+        "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.
+      </p>
+
+      <picture class="abount-us-sleeve about-us-img">
+        <source media="(min-width: 1440px)" srcset="
+                ./images/about-us/sleeve-desktop-1440.jpg,
+                ./images/about-us/sleeve-desktop-1440@2x.jpg" />
+        <source media="(min-width: 1280px)" srcset="
+                ./images/about-us/sleeve-desktop-1280.jpg,
+                ./images/about-us/sleeve-desktop-1280@2x.jpg" />
+        <source media="(min-width: 768px)" srcset="
+                ./images/about-us/sleeve-tablet.jpg,
+                ./images/about-us/sleeve-tablet@2x.jpg" />
+        <source media="(max-width: 767px)" srcset="
+                ./images/about-us/sleeve-mobile.jpg,
+                ./images/about-us/sleeve-mobile@2x.jpg" />
+        <img src="./images/about-us/sleeve-mobile.jpg" alt="shirt" />
+      </picture>
+    </section>
+
+    <!-- =============Our collection======================================= -->
+    <section class="our-collection container">
+      <h2 class="our-collection-h2">
+        Our collection
+      </h2>
+      <ul class="list-colections">
+        <li class="item-colection">
+          <div class="section-colection">
+            <picture>
+              <!-- Desktop screen 1440 -->
+
+              <source media="(min-width: 1440px)" srcset="
+                      ./img/our-collection/august-poltava/august-poltava-desktop-1440.jpg    1x,
+                      ./img/our-collection/august-poltava/august-poltava-desktop-1440@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Desktop screen 1280 -->
+
+              <source media="(min-width: 1280px)" srcset="
+                      ./img/our-collection/august-poltava/august-poltava-desktop-1280.jpg    1x,
+                      ./img/our-collection/august-poltava/august-poltava-desktop-1280@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Tablet screen -->
+
+              <source media="(min-width: 768px)" srcset="
+                      ./img/our-collection/august-poltava/august-poltava-tablet.jpg    1x,
+                      ./img/our-collection/august-poltava/august-poltava-tablet@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Mobile screen -->
+
+              <source media="(max-width: 767px)" srcset="
+                      ./img/our-collection/august-poltava/august-poltava-mobile.jpg    1x,
+                      ./img/our-collection/august-poltava/august-poltava-mobile@2x.jpg 2x
+                    " type="image/jpg" />
+              <img class="card-img" src="./img/our-collection/august-poltava/august-poltava-mobile.jpg"
+                alt="embroidered shirt" loading="lazy" />
+            </picture>
+            <h3 class="name-colections-item">
+              august poltava women's blousering
+            </h3>
+            <p class="colections-text">3300 UAH</p>
+          </div>
+        </li>
+        <li class="item-colection">
+          <div class="section-colection">
+            <picture>
+              <!-- Desktop screen 1440 -->
+
+              <source media="(min-width: 1440px)" srcset="
+                      ./img/our-collection/gorgany/gorgany-desktop-1440.jpg    1x,
+                      ./img/our-collection/gorgany/gorgany-desktop-1440@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Desktop screen 1280 -->
+
+              <source media="(min-width: 1280px)" srcset="
+                      ./img/our-collection/gorgany/gorgany-desktop-1280.jpg    1x,
+                      ./img/our-collection/gorgany/gorgany-desktop-1280@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Tablet screen -->
+
+              <source media="(min-width: 768px)" srcset="
+                      ./img/our-collection/gorgany/gorgany-tablet.jpg    1x,
+                      ./img/our-collection/gorgany/gorgany-tablet@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Mobile screen -->
+
+              <source media="(max-width: 767px)" srcset="
+                      ./img/our-collection/gorgany/gorgany-mobile.jpg    1x,
+                      ./img/our-collection/gorgany/gorgany-mobile@2x.jpg 2x
+                    " type="image/jpg" />
+              <img class="card-img" src="./img/our-collection/gorgany/gorgany-mobile.jpg" alt="embroidered shirt"
+                loading="lazy" />
+            </picture>
+            <h3 class="name-colections-item">women's blouse gorgany</h3>
+            <p class="colections-text">3350 UAH</p>
+          </div>
+        </li>
+        <li class="item-colection">
+          <div class="section-colection">
+            <picture>
+              <!-- Desktop screen 1440 -->
+
+              <source media="(min-width: 1440px)" srcset="
+                      ./img/our-collection/crimea/crimea-desktop-1440.jpg   1x,
+                      /img/our-collection/crimea/crimea-desktop-1440@x2.jpg 2x
+                    " type="image/jpg" />
+              <!-- Desktop screen 1280 -->
+
+              <source media="(min-width: 1280px)" srcset="
+                      ./img/our-collection/crimea/crimea-desktop-1280.jpg   1x,
+                      /img/our-collection/crimea/crimea-desktop-1280@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Tablet screen -->
+
+              <source media="(min-width: 768px)" srcset="
+                      ./img/our-collection/crimea/crimea-tablet.jpg    1x,
+                      ./img/our-collection/crimea/crimea-tablet@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Mobile screen -->
+
+              <source media="(max-width: 767px)" srcset="
+                      ./img/our-collection/mountain/mountain-mobile.jpg    1x,
+                      ./img/our-collection/mountain/mountain-mobile@x2.jpg 2x
+                    " type="image/jpg" />
+              <img class="card-img" src="./img/our-collection/mountain/mountain-mobile.jpg" alt="embroidered shirt"
+                loading="lazy" />
+            </picture>
+            <h3 class="name-colections-item">women's blouse crimea</h3>
+            <p class="colections-text">3300 UAH</p>
+          </div>
+        </li>
+        <li class="item-colection">
+          <div class="section-colection">
+            <picture>
+              <!-- Desktop screen 1440 -->
+
+              <source media="(min-width: 1440px)" srcset="
+                      ./img/our-collection/verkhovina/verkhovina-desktop-1440.jpg   1x,
+                      ./img/our-collection/verkhovina/verkhovina-desktop-14402x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Desktop screen 1280 -->
+
+              <source media="(min-width: 1280px)" srcset="
+                      ./img/our-collection/verkhovina/verkhovina-desktop-1280.jpg    1x,
+                      ./img/our-collection/verkhovina/verkhovina-desktop-1280@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Tablet screen -->
+
+              <source media="(min-width: 768px)" srcset="
+                      ./img/our-collection/verkhovina/verkhovina-tablet.jpg    1x,
+                      ./img/our-collection/verkhovina/verkhovina-tablet@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Mobile screen -->
+
+              <source media="(max-width: 767px)" srcset="
+                      ./img/our-collection/yasen/yasen-mobile.jpg    1x,
+                      ./img/our-collection/yasen/yasen-mobile@2x.jpg 2x
+                    " type="image/jpg" />
+              <img class="card-img" src="./img/our-collection/yasen/yasen-mobile.jpg" alt="embroidered shirt"
+                loading="lazy" />
+            </picture>
+            <h3 class="name-colections-item">men's shirt yasen</h3>
+            <p class="colections-text">1700 UAH</p>
+          </div>
+        </li>
+        <li class="item-colection">
+          <div class="section-colection">
+            <picture>
+              <!-- Desktop screen 1440 -->
+
+              <source media="(min-width: 1440px)" srcset="
+                      ./img/our-collection/mountain/mountain-desktop-1440.jpg    1x,
+                      ./img/our-collection/mountain/mountain-desktop-1440@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Desktop screen 1280 -->
+
+              <source media="(min-width: 1280px)" srcset="
+                      ./img/our-collection/mountain/mountain-desktop-1280.jpg    1x,
+                      ./img/our-collection/mountain/mountain-desktop-1280@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Tablet screen -->
+
+              <source media="(min-width: 768px)" srcset="
+                      ./img/our-collection/mountain/mountain-tablet.jpg    1x,
+                      ./img/our-collection/mountain/mountain-tablet@x2.jpg 2x
+                    " type="image/jpg" />
+              <!-- Mobile screen -->
+
+              <source media="(max-width: 767px)" srcset="
+                      ./img/our-collection/crimea/crimea-mobile.jpg    1x,
+                      ./img/our-collection/crimea/crimea-mobile@2x.jpg 2x
+                    " type="image/jpg" />
+              <img class="card-img" src="./img/our-collection/crimea/crimea-mobile.jpg" alt="embroidered shirt"
+                loading="lazy" />
+            </picture>
+            <h3 class="name-colections-item">mountain men's shirt</h3>
+            <p class="colections-text">4000 UAH</p>
+          </div>
+        </li>
+        <li class="item-colection">
+          <div class="section-colection">
+            <picture>
+              <!-- Desktop screen 1440 -->
+
+              <source media="(min-width: 1440px)" srcset="
+                      ./img/our-collection/yasen/yasen-desktop-1440.jpg    1x,
+                      ./img/our-collection/yasen/yasen-desktop-1440@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Desktop screen 1280 -->
+
+              <source media="(min-width: 1280px)" srcset="
+                      ./img/our-collection/yasen/yasen-desktop-1280.jpg    1x,
+                      ./img/our-collection/yasen/yasen-desktop-1280@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Tablet screen -->
+
+              <source media="(min-width: 768px)" srcset="
+                      ./img/our-collection/yasen/yasen-tablet.jpg    1x,
+                      ./img/our-collection/yasen/yasen-tablet@2x.jpg 2x
+                    " type="image/jpg" />
+              <!-- Mobile screen -->
+
+              <source media="(max-width: 767px)" srcset="
+                      ./img/our-collection/verkhovina/verkhovina-mobile.jpg    1x,
+                      ./img/our-collection/verkhovina/verkhovina-mobile@2x.jpg 2x
+                    " type="image/jpg" />
+              <img class="card-img" src="./img/our-collection/verkhovina/verkhovina-mobile.jpg" alt="embroidered shirt"
+                loading="lazy" />
+            </picture>
+            <h3 class="name-colections-item">men's shirt verkhovina</h3>
+            <p class="colections-text">3100 UAH</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+
+  <!-- ======================MENU MOBILE===================== -->
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+
+    <div class="menu-header">
+      <a href="tel:+380684439426" class="menu-phone-link">+380 (68) 443-94-26</a>
+
+      <button class="menu-icon-x js-close-menu" type="button" aria-label="menu closed-button">
+        <svg class="icon-x" width="36" height="36">
+          <use href="./images/icons.svg#menu-icon-x"></use>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="menu-navigation">
+      <ul class="menu-nav-ul">
+        <li><a href="#about-us" class="menu-nav-ul-link">about us</a></li>
+        <li><a href="#our-collection" class="menu-nav-ul-link">our collection</a></li>
+        <li><a href="#customer-order" class="menu-nav-ul-link">customer order</a></li>
+        <li><a href="#testimonials" class="menu-nav-ul-link">testimonials</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="js/mobile-menu.js"></script>
+
+</body>
+
+</html>

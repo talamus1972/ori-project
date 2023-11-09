@@ -1,0 +1,120 @@
+.hero-text {
+    color: var(--white, #FCF9F9);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.22;
+    letter-spacing: -1.32px;
+    width: 335px;
+    margin: 0 auto;
+
+}
+
+.pan-ukrainian {
+    color: #ECD979;
+}
+
+
+.hero-buttom {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    color: #FCF9F9;
+    column-gap: 10px;
+    padding: 14px 36px;
+    margin: 20px 130px 40px 70px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-icon-star-div {
+    display: none;
+}
+
+.hero-ornament-img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hero-text {
+        width: 549px;
+        font-size: 54px;
+
+        font-weight: 400;
+        line-height: 64px;
+        /* 118.519% */
+        letter-spacing: -1.62px;
+    }
+
+
+    .hero-icon-star-div {
+        display: flex;
+        flex-direction: column;
+        width: 115px;
+        row-gap: 16px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 118px;
+        right: 32px;
+    }
+
+    .hero-icon-star-div-par {
+        color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.64px;
+    }
+
+    .hero-ornament-img {
+        display: block;
+        position: absolute;
+        right: 32px;
+        top: 800px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+
+    }
+
+    .hero-wrap {
+        display: flex;
+        flex-direction: column;
+        margin-top: 94px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .hero-image {
+        margin-top: 0;
+    }
+
+    .hero-text {
+        width: 518px;
+    }
+
+    .hero-icon-star-div {
+        right: 124px;
+        top: 154px;
+    }
+
+    .hero-buttom {
+        width: 154px;
+    }
+
+    .hero-ornament-img {
+        top: 503px;
+        right: 120px;
+    }
+}

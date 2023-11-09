@@ -1,0 +1,48 @@
+.about-us-h2 {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    /* 137.5% */
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+
+}
+
+.about-us-par1 {
+    color: rgba(252, 249, 249, 0.40);
+
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    margin-bottom: 20px;
+}
+
+.about-us-par2 {
+    color: rgba(252, 249, 249, 0.40);
+
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+}
+
+.abount-us-sleeve {
+    margin: 0 auto;
+
+}
+
+.about-us-img {
+    background-image: url(../../images/about-us/background/about-us-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    /* background-size: 251px 408px; */
+}

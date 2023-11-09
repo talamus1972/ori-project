@@ -1,0 +1,124 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 60px;
+}
+
+.header-nav-ul {
+    display: none;
+    column-gap: 25px;
+    margin-left: auto;
+}
+
+.header-nav-ul-link {
+    color: #FCF9F9;
+    line-height: 1.28;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.phone-link {
+    display: none;
+    color: #FCF9F9;
+    line-height: 1.42;
+}
+
+.header-social-ul {
+    display: flex;
+    column-gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 12px;
+
+
+}
+
+.header-social-ul-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background: rgba(252, 249, 249, 0.10);
+}
+
+.header-social-ul-link:hover,
+.header-social-ul-link:focus {
+    border: 1px solid #ECD979;
+}
+
+.header-button-burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .header-social-ul {
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .header-button-burger {
+        display: none;
+    }
+
+    .header-button-burger-icon {
+        display: none;
+    }
+
+    .header-nav-ul {
+        display: flex;
+        column-gap: 25px;
+        margin-left: 60px;
+    }
+
+    .phone-link {
+        display: flex;
+        padding: 14px 28px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        text-decoration: none;
+        margin-left: auto;
+
+    }
+
+    .header-social-ul {
+        margin-left: 20px;
+    }
+
+    @keyframes trambling-animation {
+
+        0%,
+        50%,
+        100% {
+            transform: rotate(0deg);
+        }
+
+        10%,
+        30% {
+            transform: rotate(-15deg);
+        }
+
+        20%,
+        40% {
+            transform: rotate(15deg);
+        }
+    }
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1440px) {}
